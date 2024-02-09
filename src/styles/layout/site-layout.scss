@@ -1,0 +1,17 @@
+body {
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    @include media-breakpoint-up(md) {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    // @extend .font__markpro-regular;
+}

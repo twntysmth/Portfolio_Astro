@@ -1,3 +1,12 @@
 {
-  "extends": "astro/tsconfigs/base"
+  "extends": "astro/tsconfigs/base",
+  "baseUrl": ".",
+  "jsx": "preserve",
+  "paths": {
+    "@components/*": ["./src/components/*"],
+    "@layouts/*": ["./src/layouts/*"],
+    "@root/*": ["./src/*"],
+    "@scripts/*": ["./src/scripts/*"],
+    "@styles/*": ["./src/styles/*"],
+  }
 }
